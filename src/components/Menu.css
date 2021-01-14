@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-decoration-style: none;
+
+}
+.tela-principal{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    
+}
+.painel{
+    background:#00468E;
+}
+.painel img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+.controllers{
+}
+.controllers ul{
+    list-style-type: none;
+    
+}
+.controllers li{
+    margin: 5%;
+    align-items: center;
+    size: 50px;
+    
+    
+    
+}
+.controllers a{
+    color: rgb(208, 208, 208);
+    font-size: 1,5em;
+    margin: 0 auto;
+    text-align: center;
+}
+.config{
+    width: 100%;
+    margin: 0 auto ;
+    display: inline-flex;
+    
+
+}
+.config::after, .config::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+.config a {
+
+    color: #fff;
+    margin: 2% auto;
+   
+   
+}
+
+.config p{
+    color: #fff;
+    margin: 0 auto;
+    font-size: 1,8em;
+    font-weight: 500;
+}
+
+.dashboard{
+    color:#00468E;
+   
+}
+.dashboard-bl1{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 20%;
+    align-items: center;
+    margin-top: 5%;
+}
+.dashboard-bl1 p{
+    text-align: left;
+    font-size: 4em;
+    font-weight: 600;
+    margin-left: 10%;
+    
+    
+}
+.user{
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    float: right;
+}
+.user img{
+    width: 50%;
+    margin: 20%;
+    
+}
+.user p {
+      font-size: 2em;
+      align-items: unset;
+      margin: 0 0 0 10%;
+    }
+.icons{
+    margin-right: 4px;
+}
+.conteudo{
+    margin-left: 5%;
+}
